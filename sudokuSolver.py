@@ -73,7 +73,7 @@ def solveSudoku(puzzle):
 
 if __name__ == '__main__':
     # Example of completable board that the solver could solve
-    example_board = [
+    exampleBoard = [
         [3, 9, -1,   -1, 5, -1,   -1, -1, -1],
         [-1, -1, -1,   2, -1, -1,   -1, -1, 5],
         [-1, -1, -1,   7, 1, 9,   -1, 8, -1],
@@ -86,5 +86,5 @@ if __name__ == '__main__':
         [6, 7, -1,   1, -1, 5,   -1, 4, -1],
         [1, -1, 9,   -1, -1, -1,   2, -1, -1]
     ]
-    print(solveSudoku(example_board))
-    print(example_board)
+    print(solveSudoku(exampleBoard))
+    print(exampleBoard)
